@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Comforter&family=Permanent+Marker&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+   background-image: url(./bg\ \(1\).jpg);
+  /*background-color: #eccd8a98;*/
+  background-size: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /* font-family: 'Comforter', cursive; */
+  /* font-family: 'Cabin', sans-serif; */
+  /* font-family: 'Cabin', sans-serif; */
+  /* font-family: 'Comforter', cursive; */
+  font-family: "Permanent Marker", cursive;
+  font-size: 45px;
+  color: #003153;
+}
+/* 1 em,rem = 16px */
+.mainBlock {
+    width: 800px;
+    background-color: #003153;
+    box-shadow: 0 0 30px rgb(0,0,0,0.5) ;
+    opacity: 0.9;
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.mainBlock div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.texIn {
+    height: 2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+font-weight: 700;
+color: #fff;
+}
+
+
+.btn {
+    width: 24px;
+    cursor: pointer;
+
+}
+
+.taskItem {
+display: grid;
+grid-template-columns: 9fr 0.5fr 1fr;
+margin-bottom: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
